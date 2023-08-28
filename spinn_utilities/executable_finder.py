@@ -101,7 +101,7 @@ class ExecutableFinder(object):
                 return potential_filename
 
         # No executable found
-        raise KeyError(f"Executable {executable_name} not found in path")
+        raise KeyError(f"Executable {executable_name} not found in path {self._binary_search_paths}")
 
     def get_executable_paths(self, executable_names):
         """
