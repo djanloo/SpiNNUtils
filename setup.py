@@ -17,6 +17,7 @@ from setuptools import setup
 import os
 import sys
 
+print("WARNING: this is an edited version of SpiNNUtils")
 
 if __name__ == '__main__':
     # Repeated installs assume files have not changed
