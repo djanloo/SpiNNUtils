@@ -54,6 +54,7 @@ class ExecutableFinder(object):
 
         :param str path: The path to add
         """
+        raise ValueError(f"trying to add a path like {path}? Don't think so :) ")
         self._binary_search_paths.add(path)
         if self._paths_log:
             try:
